@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    height: 32px;
+    width: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+}
+
+.line {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: var(--Theme1);
+}
+
+.x1 {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: var(--Theme1);
+    transform: rotate(45deg);
+    position: absolute;
+    transition: all .3s;
+}
+
+.x2 {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: var(--Theme1);
+    transform: rotate(-45deg);
+    position: absolute;
+    transition: all .3s;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+}

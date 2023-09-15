@@ -1,14 +1,19 @@
 import Link from 'next/link';
+import styles from "./Navi.module.css"
+import SideMenuButton from "@/components/ui/Side-menu-button";
 
 function Navi() {
-  return (
-    <nav className="flex">
-      <Link href="/" className="py-5 px-2.5 font-medium w-20">회사소개</Link>
-      <Link href="/" className="py-5 px-2.5 font-medium w-20">기술소개</Link>
-      <Link href="/" className="py-5 px-2.5 font-medium w-20">제품인증</Link>
-      <Link href="/" className="py-5 px-2.5 font-medium w-20">게시판</Link>
-    </nav>
-  );
+    return (
+        <>
+            <SideMenuButton/>
+            <nav className={styles.gnb}>
+                <Link href="/">회사소개</Link>
+                <Link href="/">기술소개</Link>
+                <Link href="/">제품인증</Link>
+                <Link href="/">게시판</Link>
+            </nav>
+        </>
+    );
 }
 
 export default Navi;
