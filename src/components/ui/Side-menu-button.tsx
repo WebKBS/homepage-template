@@ -16,7 +16,7 @@ function SideMenuButton() {
                 {!mode && <span className={styles.line}></span>}
                 <span className={!mode ? styles.line : styles.x2}></span>
             </button>
-            {mode && <SideMenu isOpen={mode}/>}
+            {mode && <SideMenu/>}
         </>
     )
 }
