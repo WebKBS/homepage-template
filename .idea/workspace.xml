@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="작업중">
-      <change afterPath="$PROJECT_DIR$/public/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/lib/swiper.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/lib/swiper.tsx" afterDir="false" />
+    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="스와이퍼 추가">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigator/Navi.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/Navi.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Logo.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694761010126</updated>
       <workItem from="1694761011126" duration="10243000" />
-      <workItem from="1694997822382" duration="3058000" />
+      <workItem from="1694997822382" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="변경사항적용">
       <option name="closed" value="true" />
@@ -161,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694771549803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="스와이퍼 추가">
+      <option name="closed" value="true" />
+      <created>1695000980833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695000980833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="변경사항적용" />
     <MESSAGE value="작업중" />
-    <option name="LAST_COMMIT_MESSAGE" value="작업중" />
+    <MESSAGE value="스와이퍼 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="스와이퍼 추가" />
   </component>
 </project>
