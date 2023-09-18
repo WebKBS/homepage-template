@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="스와이퍼 추가">
-      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.module.css" afterDir="false" />
+    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/MenuContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Logo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Logo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigator/SideMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/SideMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigator/SideMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/SideMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Side-menu-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Side-menu-button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +60,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\git\\homepage-template\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/git/homepage-template",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "D:\\git\\homepage-template\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\homepage-template\public" />
@@ -126,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694761010126</updated>
       <workItem from="1694761011126" duration="10243000" />
-      <workItem from="1694997822382" duration="5065000" />
+      <workItem from="1694997822382" duration="7038000" />
+      <workItem from="1695020209178" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="변경사항적용">
       <option name="closed" value="true" />
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695000980833</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="푸터만들기">
+      <option name="closed" value="true" />
+      <created>1695012437003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695012437003</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +188,7 @@
     <MESSAGE value="변경사항적용" />
     <MESSAGE value="작업중" />
     <MESSAGE value="스와이퍼 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="스와이퍼 추가" />
+    <MESSAGE value="푸터만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="푸터만들기" />
   </component>
 </project>

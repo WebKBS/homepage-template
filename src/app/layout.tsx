@@ -2,6 +2,7 @@ import Header from '@/components/header/Header';
 import './globals.css';
 import React from 'react';
 import Footer from "@/components/footer/Footer";
+import {MenuProvider} from "@/context/MenuContext";
 
 export const metadata = {
     title: '홈페이지 템플릿',
@@ -11,11 +12,12 @@ export const metadata = {
 export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html lang="en">
-
         <body>
-        <Header/>
-        {children}
-        <Footer/>
+        <MenuProvider>
+            <Header/>
+            {children}
+            <Footer/>
+        </MenuProvider>
         </body>
         </html>
     );
