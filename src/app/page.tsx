@@ -1,3 +1,5 @@
+import SwiperElement from "@/components/lib/swiper";
+
 async function getData() {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
 
@@ -18,6 +20,7 @@ export default async function Home() {
 
     return (
         <main>
+            <SwiperElement/>
             <h1 className="">Hello</h1>
             {
                 data.map((item: DataType) => (

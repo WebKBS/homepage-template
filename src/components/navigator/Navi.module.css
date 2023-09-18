@@ -4,6 +4,14 @@
 
 @media screen and (min-width: 768px) {
     .gnb {
-        display: block;
+        display: flex;
+    }
+
+    .gnb a {
+        padding: 30px 10px;
+        min-width: 120px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
     }
 }
