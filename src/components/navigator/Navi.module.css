@@ -1,17 +1,22 @@
 .gnb {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-    .gnb {
-        display: flex;
-    }
+  .gnb {
+    display: block;
+  }
 
-    .gnb a {
-        padding: 30px 10px;
-        min-width: 120px;
-        text-align: center;
-        font-weight: 500;
-        font-size: 18px;
-    }
+  .list {
+    display: flex;
+  }
+
+  .list > li > a {
+    display: block;
+    padding: 30px 10px;
+    min-width: 120px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+  }
 }

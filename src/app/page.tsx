@@ -1,4 +1,4 @@
-import SwiperElement from "@/components/lib/swiper";
+import SwiperElement from '@/components/lib/swiper';
 
 // async function getData() {
 //     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
@@ -16,18 +16,18 @@ import SwiperElement from "@/components/lib/swiper";
 // }
 
 export default async function Home() {
-    // const data = await getData();
+  // const data = await getData();
 
-    return (
-        <main>
-            <SwiperElement/>
-            <h1 className="">Hello</h1>
+  return (
+    <main>
+      <SwiperElement />
+      <h1 className="">컨텐츠</h1>
 
-            {/*{*/}
-            {/*    data.map((item: DataType) => (*/}
-            {/*        <div key={item.id}>{item.title}</div>*/}
-            {/*    ))*/}
-            {/*}*/}
-        </main>
-    );
+      {/*{*/}
+      {/*    data.map((item: DataType) => (*/}
+      {/*        <div key={item.id}>{item.title}</div>*/}
+      {/*    ))*/}
+      {/*}*/}
+    </main>
+  );
 }

@@ -10,6 +10,56 @@
     z-index: 300;
 }
 
+.menuList {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuList > li {
+
+}
+
+.menuList > li > div {
+    border-bottom: 1px solid #CFD8DC;
+}
+
+.menuList > li > div > button {
+    width: 100%;
+    text-align: left;
+    background: url(../../../public/dropdown.svg) no-repeat right 20px center/auto 20px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 20px;
+}
+
+.menuList > li > ul {
+    background: #F3F3F3;
+    border-bottom: 1px solid #CFD8DC;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.menuList > li > ul li {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.menuList > li > ul li a {
+    font-size: 15px;
+    line-height: 170%;
+}
+
+@media screen and (min-width: 768px) {
+    .sideMenu {
+        display: none;
+    }
+}
+
 @keyframes open {
     to {
         transform: translateX(0);
