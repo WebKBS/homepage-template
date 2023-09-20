@@ -32,7 +32,7 @@ function NaviItem({onClick}: { onClick?: () => void }) {
                     </div>
                     <ul className={openIndex === index ? styles.close : styles.open}>
                         {menuItem.links.map((link, linkIndex) => (
-                            <li key={linkIndex}>
+                            <li key={linkIndex} className={styles.item}>
                                 <Link href={link.href} onClick={onClick}>
                                     {link.text}
                                 </Link>

@@ -1,4 +1,8 @@
 
+.item {
+    padding: 0 30px;
+}
+
 .open {
     background: #F3F3F3;
     border-bottom: 1px solid #CFD8DC;
@@ -10,8 +14,15 @@
 }
 
 .close {
-    padding: 13px 0;
+    background: #F3F3F3;
+    border-bottom: 1px solid #CFD8DC;
+    overflow: hidden;
+    transition: all 0.3s;
+    padding: 16px 0;
     visibility: visible;
     height: auto;
     opacity: 1;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
 }
