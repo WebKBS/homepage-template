@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="에러수정">
-      <change afterPath="$PROJECT_DIR$/public/dropdown.svg" afterDir="false" />
+    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="네비게이션 작업중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigator/Navi.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/Navi.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigator/Navi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/Navi.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigator/NaviItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/NaviItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigator/NaviItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/NaviItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigator/SideMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/SideMenu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigator/SideMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/SideMenu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +128,7 @@
       <workItem from="1695020209178" duration="5916000" />
       <workItem from="1695169909998" duration="12000" />
       <workItem from="1695189062743" duration="187000" />
-      <workItem from="1695189257326" duration="3736000" />
+      <workItem from="1695189257326" duration="7785000" />
     </task>
     <task id="LOCAL-00001" summary="변경사항적용">
       <option name="closed" value="true" />
@@ -199,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695024191837</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="네비게이션 작업중">
+      <option name="closed" value="true" />
+      <created>1695194144996</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695194144997</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +215,8 @@
     <MESSAGE value="푸터만들기" />
     <MESSAGE value="context api로 사이드 메뉴 만들기" />
     <MESSAGE value="에러수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="에러수정" />
+    <MESSAGE value="네비게이션 작업중" />
+    <option name="LAST_COMMIT_MESSAGE" value="네비게이션 작업중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

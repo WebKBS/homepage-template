@@ -8,15 +8,15 @@
     transform: translateX(100%);
     animation: open .3s forwards;
     z-index: 300;
+    overflow-y: auto;
+    border-top: 1px solid #CFD8DC;
+
 }
 
 .menuList {
     display: flex;
+    padding-bottom: 120px;
     flex-direction: column;
-}
-
-.menuList > li {
-
 }
 
 .menuList > li > div {
@@ -30,16 +30,6 @@
     font-size: 15px;
     font-weight: 600;
     padding: 13px 20px;
-}
-
-.menuList > li > ul {
-    background: #F3F3F3;
-    border-bottom: 1px solid #CFD8DC;
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s;
 }
 
 .menuList > li > ul li {
