@@ -10,16 +10,14 @@ function Navi() {
             <nav className={styles.gnb}>
                 <ul className={styles.list}>
                     {menuItems.map((menuItem, index) => (
-                        <li key={index}>
-                            <div>
-                                <button type="button" className={styles.link}>
-                                    {menuItem.title}
-                                </button>
-                            </div>
+                        <li key={index} className={styles.listItem}>
+                            <Link href={menuItem.links[0].href} className={styles.link}>
+                                {menuItem.title}
+                            </Link>
                             <ul className={styles.subList}>
                                 {menuItem.links.map((link, linkIndex) => (
                                     <li key={linkIndex}>
-                                        <Link href={link.href}>
+                                        <Link href={link.href} className={styles.subLink}>
                                             {link.text}
                                         </Link>
                                     </li>

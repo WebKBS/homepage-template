@@ -1,16 +1,17 @@
 .header {
-  position: sticky;
-  z-index: 300;
-  top: 0;
-  left: 0;
-  background: #fff;
+    position: sticky;
+    z-index: 300;
+    top: 0;
+    left: 0;
+    background: #fff;
 }
 
 .headerInner {
-  display: flex;
-  max-width: 1352px;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
+    display: flex;
+    max-width: 1352px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
 }

@@ -5,10 +5,41 @@
 @media screen and (min-width: 768px) {
     .gnb {
         display: block;
+        flex: 1;
     }
 
     .list {
         display: flex;
+        width: 100%;
+        max-width: 800px;
+        margin-left: auto;
+        position: relative;
+    }
+
+
+    .listItem {
+        max-width: 200px;
+        width: 100%;
+        position: relative;
+    }
+
+    .list:hover .subList,
+    .list:hover:after {
+        display: block;
+    }
+
+    .list:after {
+        content: "";
+        display: none;
+        background: #fff;
+        position: fixed;
+        top: 78px;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+        height: 260px;
+        border-top: 1px solid var(--gray4);
+
     }
 
     .link {
@@ -19,8 +50,38 @@
         font-weight: 600;
         font-size: 18px;
     }
+
+    .subList {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 79px;
+        background: #fff;
+        text-align: center;
+        z-index: 1;
+        border-left: 1px solid var(--gray4);
+        height: 260px;
+    }
+
+    .listItem:last-child .subList {
+        border-right: 1px solid var(--gray4);
+    }
+
+    .subLink {
+        display: block;
+        padding: 20px 10px;
+        word-break: keep-all;
+        /* WEB/Header/header4 */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 19.2px */
+    }
+
+    .subLink:hover {
+        background: var(--Theme1);
+        color: white;
+        font-weight: bold;
+    }
 }
 
-.subList {
-    position: absolute;
-}
