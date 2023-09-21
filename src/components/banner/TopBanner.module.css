@@ -1,0 +1,48 @@
+.banner {
+    width: 100%;
+    position: relative;
+    height: 300px;
+}
+
+.box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subTitle {
+    color: var(--white, #FFF);
+    text-align: center;
+
+    /* WEB/Subtitle/subtitle2* */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%; /* 34px */
+}
+
+.title {
+    color: var(--white, #FFF);
+    text-align: center;
+
+    /* WEB/Title/h2* */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%; /* 78.2px */
+}
+
+@media screen and (min-width: 768px) {
+
+    .subTitle {
+        font-size: 20px;
+
+    }
+
+    .title {
+        font-size: 46px;
+
+    }
+}

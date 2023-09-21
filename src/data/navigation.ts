@@ -10,12 +10,12 @@ export const menuItems = [
     {
         title: '기술소개',
         links: [
-            {text: '전자약 충전 플랫폼', href: '/technology'},
+            {text: '기술', href: '/technology'},
             {
-                text: '초음파 구동 신경자극 플랫폼',
+                text: '기술 플랫폼',
                 href: '/technology/ultrasound-stimulation',
             },
-            {text: 'IoT/센서 플랫폼', href: '/technology/iot-sensors'},
+            {text: '기술 플랫폼2', href: '/technology/iot-sensors'},
         ],
     },
     {
@@ -29,7 +29,7 @@ export const menuItems = [
     {
         title: '게시판',
         links: [
-            {text: '공고게시판', href: '/board/announcements'},
+            {text: '공고게시판', href: '/board'},
             {text: 'Contact Us', href: '/contact'},
         ],
     },

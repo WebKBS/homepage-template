@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="모바일 사이드메뉴 완료">
+    <list default="true" id="b3c88159-a50e-4255-bf4f-a79d49228b67" name="변경" comment="네비게이션 완료">
+      <change afterPath="$PROJECT_DIR$/public/top_banner_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/top_banner_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/top_banner_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/top_banner_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/history/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/location/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/board/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/certification/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/technology/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/banner/TopBanner.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/banner/TopBanner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigator/Navi.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/Navi.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigator/Navi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigator/Navi.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/navigation.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +79,7 @@
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/git/homepage-template",
+    "last_opened_file_path": "D:/git/homepage-template/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,7 +94,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\homepage-template\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\homepage-template\src\app\about" />
       <recent name="D:\git\homepage-template\public" />
       <recent name="D:\git\homepage-template\src\components\navigator" />
       <recent name="D:\git\homepage-template\src\components\header" />
@@ -143,7 +160,7 @@
       <workItem from="1695189257326" duration="9282000" />
       <workItem from="1695199493230" duration="745000" />
       <workItem from="1695264739287" duration="16000" />
-      <workItem from="1695264841238" duration="2999000" />
+      <workItem from="1695264841238" duration="9233000" />
     </task>
     <task id="LOCAL-00001" summary="변경사항적용">
       <option name="closed" value="true" />
@@ -233,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695199032119</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="네비게이션 완료">
+      <option name="closed" value="true" />
+      <created>1695273784326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695273784326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +274,8 @@
     <MESSAGE value="네비게이션 작업중" />
     <MESSAGE value="네비게이션 모바일 PC 분리 필요" />
     <MESSAGE value="모바일 사이드메뉴 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="모바일 사이드메뉴 완료" />
+    <MESSAGE value="네비게이션 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="네비게이션 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

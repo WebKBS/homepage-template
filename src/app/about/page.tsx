@@ -1,5 +1,9 @@
 function About() {
-    return <h1>About</h1>
+    return (
+        <>
+            <h1>회사소개</h1>
+        </>
+    );
 }
 
 export default About;
